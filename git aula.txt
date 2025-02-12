@@ -5,11 +5,22 @@ git init
 git status
 git add "git aula.txt" (dar git add quando modificar o arquivo)
 git commit  -m "especificar o que foi feito nesse commit "  (fazer commit quando modificar algo)
+git pull (verificar primeiro pull antes de fazer o push quando trabalhando com outras pessoas.) 
+git push 
 git log
 git checkout
+
 git remove
-git pull 
-git push 
-git remote
+
+Recuperando arquivo
+ git add "git aula.txt"
+git commit -m "deleted git aula.txt"
+Se eu for no log e quiser apenas alguma versão de lá
+git checkout 8vxfbxd54vfd -- git aula.txt
+Se eu não quiser que o arquivo recuperado fique no stage area 
+git restore --staged git aula.txt
+
+
+git remote (caso especial)
 
 aqui

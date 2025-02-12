@@ -4,7 +4,7 @@ dir
 git init
 git status
 git add "git aula.txt" (dar git add quando modificar o arquivo)
-git commit  -m " "  (fazer commit quando modificar algo)
+git commit  -m "initial commit"  (fazer commit quando modificar algo)
 git log
 git checkout
 git remove

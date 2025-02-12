@@ -1,7 +1,8 @@
-git aula
-teste
-teste
-teste
-teste
-teste
-teste
+cd "c:\Users\eloan\OneDrive\Área de Trabalho\git-aula\"
+pwd
+dir
+git init
+git status
+git add "git aula.txt"
+git restore (se precisar restaurar)
+git commit  -m 

@@ -8,3 +8,5 @@ git commit  -m " "  (fazer commit quando modificar algo)
 git log
 git checkout
 git remove
+
+aqui

@@ -3,6 +3,8 @@ pwd
 dir
 git init
 git status
-git add "git aula.txt"
-git restore (se precisar restaurar)
-git commit  -m 
+git add "git aula.txt" (dar git add quando modificar o arquivo)
+git commit  -m " "  (fazer commit quando modificar algo)
+git log
+git checkout
+git remove

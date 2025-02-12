@@ -20,6 +20,19 @@ git checkout 8vxfbxd54vfd -- git aula.txt
 Se eu não quiser que o arquivo recuperado fique no stage area 
 git restore --staged git aula.txt
 
+Branch
+git branch -r  (Para ver todos os branches remotos)
+git branch -vv (ver a relação entre os branches locais e remotos)
+Posso usar para deletar
+git branch -d aula-modificada
+git branch -D aula-modificada
+git push origin --delete aula-modificada
+Remover referências locais a branches que não existem mais no repositório remoto. (Mas talvez ainda apareçam.
+git fetch --prune origin
+
+git pull origin main
+git push origin --delete nomedabranch 
+
 
 git remote (caso especial)
 

@@ -1,4 +1,18 @@
 cd "c:\Users\eloan\OneDrive\Área de Trabalho\git-aula\"
+Configurar git
+git config --global user.name "Eloane Abreu"
+git config --global user.email  eloaneabreu.96@gmail.com
+
+ver branch padrão 
+git config init.defaulBranch
+ou
+git config --global init.defaultBranch
+mudar branch padrão. Escrever o comando e no final escrever o nome da branch
+git config --global init.defaultBranch main
+
+
+
+
 pwd
 dir
 git init
@@ -32,6 +46,8 @@ git fetch --prune origin
 
 git pull origin main
 git push origin --delete nomedabranch 
+
+git clone
 
 
 git remote (caso especial)

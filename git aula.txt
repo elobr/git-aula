@@ -14,7 +14,8 @@ git config --global init.defaultBranch main
 
 
 pwd
-dir
+ls
+
 git init
 git status
 git add "git aula.txt" (dar git add quando modificar o arquivo)
@@ -53,3 +54,5 @@ git clone
 git remote (caso especial)
 
 aqui
+
+testando atualização
